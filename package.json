@@ -1,0 +1,27 @@
+{
+  "name": "react-typescript",
+  "version": "1.0.0",
+  "description": "React and TypeScript example starter project",
+  "keywords": [
+    "typescript",
+    "react",
+    "starter"
+  ],
+  "type": "module",
+  "dependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.38",
+    "@types/react-dom": "18.2.15",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
